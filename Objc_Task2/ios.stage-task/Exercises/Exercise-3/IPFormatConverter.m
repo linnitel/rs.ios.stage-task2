@@ -14,7 +14,7 @@
             [temp setString:@"Negative numbers are not valid for input."];
             break;
         }
-        if (index < count && [numbersArray[index] intValue] > 225) {
+        if (index < count && [numbersArray[index] intValue] > 255) {
             [temp setString:@"The numbers in the input array can be in the range from 0 to 255."];
             break;
         }
